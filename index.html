@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Curriculum-Vitae</title>
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    #topmenu {
+        display: flex;
+        background-color: #f75e50;
+        margin: 0;
+    }
+
+    #topmenu li {
+        color: #1b1520;
+        display: block;
+        padding: 15px;
+    }
+
+    #topmenu li:first-child {
+        margin-right: auto;
+    }
+
+    .section1 {
+        display: flex;
+        height: 100vh;
+        background-color: #eac761;
+    }
+
+    .centralize {
+        margin: auto;
+        text-align: center;
+    }
+
+    .section1 .centralize h1 {
+        font-size: 10em;
+    }
+
+    .imagemProjeto {
+        width: 15vw;
+        height: 15vw;
+        padding-left: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        margin: 0 auto;
+        height: 33vh;
+        background-color: #e8df9c;
+    }
+
+    .section3 {
+        display: flex;
+        height: 33vh;
+        background-color: #91c09e;
+    }
+
+    .botaovermelho {
+        background-color: #f75e50;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    footer {
+        text-align: center;
+        background-color: black;
+        padding: 1px;
+        color: whitesmoke;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul id="topmenu">
+            <li>Logo</li>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Contato</li>
+        </ul>
+    </nav>
+    <div class="section1">
+        <div class="centralize">
+            <h1>Nicollas</h1>
+            <a href="#projetos"><button class="botaovermelho">Meus Projetos</button></a>
+        </div>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td width="40%"><img class="imagemProjeto" src="./img/img1.jpg" alt=""></td>
+                <td width="60%; text-align:left">
+                    <ul style="color: #1b1520;">
+                        Projeto1
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto
+                            Descrição do projeto Descrição do projeto
+                            Descrição do projeto </li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+        <table class="centralize">
+            <tr>
+                <td width="60%; text-align:left">
+                    <ul style="color: #1b1520;">
+                        Projeto2
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto
+                            Descrição do projeto Descrição do projeto
+                            Descrição do projeto </li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+                <td width="40%"><img class="imagemProjeto" src="./img/img2.jpg" alt=""></td>
+            </tr>
+
+        </table>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td width="40%"><img class="imagemProjeto" src="./img/img3.jpg" alt=""></td>
+                <td width="60%; text-align:left">
+                    <ul style="color: #1b1520;">
+                        Projeto1
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto
+                            Descrição do projeto Descrição do projeto
+                            Descrição do projeto </li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h1>@Martins.Nicollas</h1>
+    </footer>
+</body>
+
+</html>
